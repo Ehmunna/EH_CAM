@@ -30,3 +30,8 @@ git clone https://github.com/Ehmunna/EH_CAM.git
 cd EH_CAM
 bash ehcam.sh
 ```
+## Open new Session
+```
+apt install cloudflared
+cloudflared tunnel --url http://localhost:3333
+```
