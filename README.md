@@ -36,4 +36,6 @@ apt install cloudflared
 cloudflared tunnel --url http://localhost:3333
 ```
 ## Save Capture photo 
+```
 cp *.png ~/storage/shared/
+```
