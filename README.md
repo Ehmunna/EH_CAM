@@ -23,6 +23,7 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
 ```
 apt update -y
 apt upgrade -y
+apt install cloudflared
 apt install  php -y
 apt install openssh -y
 apt install git -y
@@ -34,7 +35,7 @@ bash ehcam.sh
 ```
 ## Open new Session
 ```
-apt install cloudflared
+
 cloudflared tunnel --url http://localhost:3333
 ```
 ## Save Capture photo 
