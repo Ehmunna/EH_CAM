@@ -27,9 +27,9 @@ apt install cloudflared
 apt install  php -y
 apt install openssh -y
 apt install git -y
+termux-setup-storage
 apt install wget -y
 git clone https://github.com/Ehmunna/EH_CAM.git
-termux-setup-storage
 cd EH_CAM
 bash ehcam.sh
 ```
